@@ -32,9 +32,9 @@ spring:
       indent-output: true
   datasource:
     type: com.zaxxer.hikari.HikariDataSource
-    url: jdbc:postgresql://localhost:5432/sahiaRab
-    username: sahiaRab
-    password:
+    url: jdbc:postgresql://localhost:5432/realone
+    username: postgres
+    password: 1234
     hikari:
       poolName: Hikari
       auto-commit: false
